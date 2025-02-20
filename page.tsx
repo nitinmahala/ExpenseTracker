@@ -12,30 +12,7 @@ import type { Transaction } from "./types"
 
 export default function MoneyManager() {
   const [transactions, setTransactions] = useState<Transaction[]>([
-    {
-      id: 1,
-      description: "Salary",
-      amount: 5000,
-      type: "income",
-      category: "salary",
-      date: "2024-02-20",
-    },
-    {
-      id: 2,
-      description: "Rent",
-      amount: 1500,
-      type: "expense",
-      category: "housing",
-      date: "2024-02-19",
-    },
-    {
-      id: 3,
-      description: "Groceries",
-      amount: 200,
-      type: "expense",
-      category: "food",
-      date: "2024-02-18",
-    },
+    
   ])
 
   const [isDialogOpen, setIsDialogOpen] = useState(false)
